@@ -44,8 +44,8 @@
 
     + Ruta = http://localhost:3001/shippings/createShipping
 
-    + Ya estaria creado el envio , y devuelve los datos del envio mas la distancia aproximada .
-    ##
+ -Ya estaria creado el envio , y devuelve los datos del envio mas la distancia aproximada .
+   
 
     + Metodo PUT para actualizar localizacion del envio  con las siguientes variables :
         "id"
@@ -54,15 +54,15 @@
 
     + Ruta =  http://localhost:3001/shippings/updateSend
 
-    + En este paso ya se actualiza la localizacion del envio y retorna el estado "En proceso" del envio junto a la distancia aproximada .
-    ##
+ -En este paso ya se actualiza la localizacion del envio y retorna el estado "En proceso" del envio junto a la distancia aproximada .
+    
 
     + Metodo GET con este hacemos el seguimiento del envio , le pasamos el "id" por params .
 
     +Ruta =  http://localhost:3001/shippings/ViewShipmentSstatus/1
 
-    + Esto nos retorna el cliente , la descripcion , el estado y la distancia aproximada del envio.
-    ##
+ -Esto nos retorna el cliente , la descripcion , el estado y la distancia aproximada del envio.
+    
 
     + Metodo PUT este sirve para setear el estado del envio en "Entregado"
         "id"
@@ -70,6 +70,6 @@
 
     +Ruta =  http://localhost:3001/shippings/shippingDelivered
 
-    +Esto devuelve toda la informacion del invio y se guarda la fecha en  "finish_at" .
+ -Esto devuelve toda la informacion del invio y se guarda la fecha en  "finish_at" .
 
 - PD : Las latitudes y longitudes se probaron con las de Google Map .
