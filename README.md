@@ -17,6 +17,8 @@
     + end_long          Longitud de destino   DOUBLE
     + aprox_distance    Distancia aproximada al destino en KM con respecto a la posición actual    FLOAT
     + finish_at         Fecha en la que se entregó el paquete  DATE
+    
+-Primero hacer "npm i" .
 
 -La conexion esta echa con varriables de entorno
 
